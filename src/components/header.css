@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Play:wght@400;700&display=swap');
 .image{
 
-    border-radius: 180px 180px 0px 0px;
+    border-radius: 180px 180px 180px 0px;
 
 }
 
@@ -10,4 +10,34 @@
 
     font-family: 'Play', sans-serif;
 
+}
+
+.main{
+
+    height:100vh;
+    width : 100%;
+}
+
+video{
+
+    height:100%;
+    width : 100%;
+    object-fit : cover;
+
+}
+
+.content{
+    position : absolute;
+    width:100%;
+    height: 100%;
+    top:0;
+}
+
+.overlay{
+    position : absolute;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,.5)
 }

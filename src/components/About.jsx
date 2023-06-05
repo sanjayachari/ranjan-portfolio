@@ -40,7 +40,7 @@ const About = () => {
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
 
-> <a href="#skill">Skills</a> </motion.div>
+> <a href="#home">Home</a> </motion.div>
 <motion.div className="hover:bg-[white] hover:text-black hover:border-white duration-700 shadow-2xl h-[60px] md:h-[100px] w-[60px] md:w-[100px] text-[11px] md:text-[20px] bg-black text-white m-2 rounded-lg flex justify-center items-center"
 
   initial={{ opacity: 0, scale: 0.8 }}
@@ -86,7 +86,7 @@ const About = () => {
       >  
 
       <motion.div className="h-[270px] md:h-[350px] w-[200px] md:w-[260px] bg-[black] rounded-lg"
-        initial={{ opacity: 0, scale: 0.8 }}
+      initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
