@@ -1,0 +1,84 @@
+<div className='max-w-[1240px] mx-auto md:grid grid-cols-3 '>
+    {
+      <div className=' fo col-span-2 border border-black'>
+      hello
+      
+
+    }
+
+
+    <div className='col-span-1 border border-black'>
+   
+
+    </div>
+    
+    ---------------------------------------------------
+    col-span-2 immmmportant
+    ---------------------------------------------------
+
+
+chart is rechart
+
+
+-> npm install rechart
+
+-> tooltip when we hover it shows the details
+
+-> fill changes the color
+
+import React from 'react'
+import {BarChart, ResponsiveContainer, Bar, XAxis, YAxis, Tooltip} from 'recharts'
+
+const Arr = [
+    {
+        lang : "javascript",
+        student : 100
+    },
+    {
+        lang : "javascript",
+        student : 90
+    },
+    {
+        lang : "javascript",
+        student : 30
+    },
+    {
+        lang : "javascript",
+        student : 70
+    },
+]
+
+const Skills = () => {
+  return (
+    <div className='h-[800px] w-full border border-black text-center text-3xl p-2'>
+    
+    Skills charts
+    
+
+    <ResponsiveContainer width="50%" aspect={3}>
+        <BarChart data={Arr} height={400}  width={400}>
+        <XAxis dataKey="lang"/>
+        <YAxis/>
+        <Tooltip/>
+            <Bar dataKey="student" fill='red' />
+        </BarChart>
+    </ResponsiveContainer>
+    </div>
+  )
+}
+
+export default Skills
+
+
+------------------------------
+scroll behavior
+
+html{
+    scroll-behavior : smooth;
+}
+
+
+------------------------------
+email to mail --> email.js
+
+npm i @emailjs/browser
