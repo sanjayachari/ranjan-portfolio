@@ -64,13 +64,13 @@ const data = [
 
     // <div className='flex justify-center items-center'>
 
-    <motion.section id='skill' className=' m-0 md:m-[25px]  h-[200px] md:h-[350px] md:block hidden text-[10px] md:text-[20px] '
+    <motion.section id='skill' className='  md:m-[25px]  h-[200px] md:h-[350px] md:block hidden text-[10px] md:text-[20px] '
      initial={{opacity:0, scale:0.8}}
         whileInView={{ opacity:1, scale:1}}
         transition={{  duration: 0.5 }}
         viewport={{once:true}}
     >
-        <h1 className='m-10 font-bold md:text-3xl'>Professional Skills</h1>
+        <h1 className='m-10 font-bold  md:text-3xl'>Professional Skills</h1>
 
 
     

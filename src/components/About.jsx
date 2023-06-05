@@ -12,18 +12,18 @@ const About = () => {
         transition={{  duration: 0.5 }}
         viewport={{once:true}}
 
-        className="w-full h-full md:grid grid-cols-3 gap-2"
+        className="w-full h-full md:grid grid-cols-3 gap-2 mt-5"
       >
 
       <div className="col-span-2  flex justify-center items-center flex-col"> 
-      <motion.div className=" font-bold md:text-3xl"
+      <motion.div className=" font-bold text-2xl md:text-3xl"
         initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
       
       >About Me</motion.div>
-      <motion.div className="text-[9px] md:text-[15px]"
+      <motion.div className="text-[9px] md:text-[15px] mb-2"
         initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}

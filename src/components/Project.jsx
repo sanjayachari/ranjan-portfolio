@@ -12,12 +12,12 @@ const Project = () => {
     <div className='p-2 md:p-[30px] md:h-[700px] w-full  '
     
     >
-        <h1 className='m-10 font-bold md:text-3xl'>My Projects</h1>
-    <div className='flex flex-col justify-center items-center md:grid grid-cols-3 place-items-center' id='project'>
+        <h1 className='m-5 md:m-20 font-bold text-2xl md:text-3xl'>My Projects</h1>
+    <div className='flex flex-col justify-center items-center md:grid grid-cols-3 place-items-center ' id='project'>
     
     
     
-    <motion.div className='h-[400px] w-[300px] m-2 col-span-1 shadow-2xl hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl'
+    <motion.div className='h-[400px] w-[300px] m-4 col-span-1 shadow-2xl hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3'
      initial={{opacity:0, scale:0.8}}
         whileInView={{ opacity:1, scale:1}}
         transition={{  duration: 0.5 }}
@@ -45,7 +45,7 @@ const Project = () => {
         </div>
 
     </motion.div>
-    <motion.div className='h-[400px] m-2 w-[300px] col-span-1 shadow-2xl   hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl'
+    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl   hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3'
     
     initial={{opacity:0, scale:0.8}}
         whileInView={{ opacity:1, scale:1}}
@@ -74,7 +74,7 @@ const Project = () => {
 
 
     </motion.div>
-    <motion.div className='h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl' 
+    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
     
     initial={{opacity:0, scale:0.8}}
         whileInView={{ opacity:1, scale:1}}

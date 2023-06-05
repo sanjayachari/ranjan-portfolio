@@ -57,25 +57,25 @@ export const Contact = () => {
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
       >
-        <h1 className="font-bold md:text-3xl">Get in Touch</h1>
+        <h1 className="font-bold text-2xl md:text-3xl">Get in Touch</h1>
 
         <div className="w-[300px] md:w-[350px] h-[400px]  p-2 shadow-lg rounded">
           <form ref={form} onSubmit={sendEmail}>
-            <h1 className="text-[18px]">name</h1>
+            <h1 className="text-[18px]">Name</h1>
             <input
               type="text"
               name="from_name"
               className="w-full h-[40px] mb-4 rounded p-1"
               required
             />
-            <h1 className="text-[18px]">email</h1>
+            <h1 className="text-[18px]">Email</h1>
             <input
               type="email"
               name="user_email"
               className="w-full h-[40px] mb-4 rounded p-1"
               required
             />
-            <h1 className="text-[18px]">message</h1>
+            <h1 className="text-[18px]">Message</h1>
             <textarea name="message" required className="w-full" />
             <br />
             <input
@@ -89,7 +89,7 @@ export const Contact = () => {
         </div>
       </motion.div>
 
-      <motion.div className="m-2 h-[250px] md:h-[300px] w-[300px] md:w-[700px] shadow-lg flex flex-col justify-center"
+      <motion.div className="m-2 h-[300px] md:h-[300px] w-[300px] md:w-[700px] shadow-lg flex flex-col justify-center"
       
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
@@ -104,7 +104,7 @@ export const Contact = () => {
           to detail...
           </p> 
           <p className="font-bold  mt-3 shadow-lg">
-          please don't hesitate to get in touch!
+          Please don't hesitate to get in touch!
           </p>
         </div>
       </motion.div>
