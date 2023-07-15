@@ -34,14 +34,14 @@ const Project = () => {
         <div className='p-5'>
             <p className='font-bold text-2xl'> MERN Blog App</p>
             <p>React</p>
+            <p>Context Api</p>
             <p>Nodejs</p>
             <p>Express</p>
             <p>MongoDB</p>
             <p>Tailwind CSS</p>
-            <p>MUi</p>
             <div className='mt-2'>
             <a className='bg-gray-300 text-black border border-black p-1' href='https://github.com/Sanjay-acharya-au50/CRUD_BACKEND'>Code</a>
-            <a className='bg-gray-300 text-black border border-black p-1 m-1' href='https://sanjay-mern-crud-project.vercel.app/'> Website Link </a>
+
             </div>
 
 
