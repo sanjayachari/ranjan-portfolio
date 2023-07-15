@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import crud from '../image/crud.png'
 import ecom from '../image/ecom.jpeg'
 import auth from '../image/auth.png'
-
+import blog from '../image/blog.jpeg'
 
 
 const Project = () => {
@@ -17,6 +17,8 @@ const Project = () => {
         <h1 className='m-5 md:m-20 font-bold text-2xl md:text-3xl'>My Projects</h1>
     <div className='flex flex-col justify-center items-center md:grid grid-cols-3 place-items-center ' id='project'>
     
+   
+
     <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
     
     initial={{opacity:0, scale:0.8}}
@@ -26,27 +28,26 @@ const Project = () => {
     
     >
 
-        <img src={ecom} alt='' className='h-[140px] w-[300px]'>
+        <img src={blog} alt='' className='h-[140px] w-[300px]'>
 
         </img>
         <div className='p-5'>
-            <p className='font-bold text-2xl'> Ecommerce App</p>
+            <p className='font-bold text-2xl'> MERN Blog App</p>
             <p>React</p>
-            <p>Vites.js</p>
+            <p>Nodejs</p>
+            <p>Express</p>
+            <p>MongoDB</p>
             <p>Tailwind CSS</p>
-            <p>Context Api</p>
-            <p>React-Router-Dom</p>
-            <p>Framer Motion</p>
+            <p>MUi</p>
             <div className='mt-2'>
-            <a className='bg-gray-300 text-black border border-black p-1' href='https://github.com/Sanjay-acharya-au50/ecom'>Code</a>
-            <a className='bg-gray-300 text-black border border-black p-1 m-1' href='https://sanjay-ecommerce-project-git-main-sanjay-acharya-au50.vercel.app/'> Website Link </a>
+            <a className='bg-gray-300 text-black border border-black p-1' href='https://github.com/Sanjay-acharya-au50/CRUD_BACKEND'>Code</a>
+            <a className='bg-gray-300 text-black border border-black p-1 m-1' href='https://sanjay-mern-crud-project.vercel.app/'> Website Link </a>
             </div>
 
 
         </div>
 
     </motion.div>
-
     <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
     
     initial={{opacity:0, scale:0.8}}
@@ -106,6 +107,35 @@ const Project = () => {
         </div>
 
     </motion.div>
+    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
+    
+    initial={{opacity:0, scale:0.8}}
+        whileInView={{ opacity:1, scale:1}}
+        transition={{  duration: 0.5 }}
+        viewport={{once:true}}
+    
+    >
+
+        <img src={ecom} alt='' className='h-[140px] w-[300px]'>
+
+        </img>
+        <div className='p-5'>
+            <p className='font-bold text-2xl'> E-Commerce App</p>
+            <p>React</p>
+            <p>Vites.js</p>
+            <p>Tailwind CSS</p>
+            <p>Context Api</p>
+            <p>React-Router-Dom</p>
+            <p>Framer Motion</p>
+            <div className='mt-2'>
+            <a className='bg-gray-300 text-black border border-black p-1' href='https://github.com/Sanjay-acharya-au50/ecom'>Code</a>
+            <a className='bg-gray-300 text-black border border-black p-1 m-1' href='https://sanjay-ecommerce-project-git-main-sanjay-acharya-au50.vercel.app/'> Website Link </a>
+            </div>
+
+
+        </div>
+
+    </motion.div>
     
     
     <motion.div className='h-[400px] w-[300px] m-4 col-span-1 shadow-2xl hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3'
@@ -120,7 +150,7 @@ const Project = () => {
         </img>
 
         <div className='p-5 '>
-            <p className='font-bold text-2xl '>E-learning website</p>
+            <p className='font-bold text-2xl '>E-Learning website</p>
             <p>HTML</p>
             <p>CSS</p>
             <p>Javascript</p>
