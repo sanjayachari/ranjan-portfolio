@@ -238,7 +238,7 @@ const Project = () => {
 
         </img>
         <div className='p-5'>
-            <p className='font-bold text-2xl'> Resturant App</p>
+            <p className='font-bold text-2xl'> Resturant App UI</p>
             <p>React</p>
             <p>CSS</p>
             <p>Javascript</p>
