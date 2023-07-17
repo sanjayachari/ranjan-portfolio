@@ -7,6 +7,7 @@ import crud from '../image/crud.png'
 import ecom from '../image/ecom.jpeg'
 import auth from '../image/auth.png'
 import blog from '../image/blog.jpeg'
+import redux from '../image/redux.png'
 
 
 const Project = () => {
@@ -101,6 +102,35 @@ const Project = () => {
             <div className='mt-2'>
             <a className='bg-gray-300 text-black border border-black p-1' href='https://github.com/Sanjay-acharya-au50/mernAuthh'>Code</a>
 
+            </div>
+
+
+        </div>
+
+    </motion.div>
+    <motion.div className='mt-5 h-[400px] m-2 w-[300px] col-span-1 shadow-2xl  hover:bg-[black] hover:text-white hover:border-white duration-700 rounded-2xl gap-3' 
+    
+    initial={{opacity:0, scale:0.8}}
+        whileInView={{ opacity:1, scale:1}}
+        transition={{  duration: 0.5 }}
+        viewport={{once:true}}
+    
+    >
+
+        <img src={redux} alt='' className='h-[140px] w-[300px]'>
+
+        </img>
+        <div className='p-5'>
+            <p className='font-bold text-2xl'> Redux pizzaCart</p>
+            <p>React</p>
+            <p>Vites.js</p>
+            <p>Tailwind CSS</p>
+            <p>Redux Toolkit</p>
+            <p>React-Router-Dom</p>
+            <p>Framer Motion</p>
+            <div className='mt-2'>
+            <a className='bg-gray-300 text-black border border-black p-1' href='https://github.com/Sanjay-acharya-au50/react-portFolio'>Code</a>
+            <a className='bg-gray-300 text-black border border-black p-1 m-1' href='https://sanjay-pizza-cart.vercel.app/'> Website Link </a>
             </div>
 
 
