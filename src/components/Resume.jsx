@@ -21,7 +21,7 @@ const Resume = () => {
 
                 <a href='https://www.instagram.com/sanju_93__/' alt='instagram' >  <AiOutlineInstagram className='m-2 text-3xl'/> </a>
                 <a href='https://www.linkedin.com/in/sanjayachari/' alt='LinkedIn'>  <AiFillLinkedin className='m-2 text-3xl'/></a>
-                <a href='https://github.com/Sanjay-acharya-au50' alt='GitHub'>  <AiFillGithub className='m-2 text-3xl'/></a>
+                <a href='https://github.com/sanjayachari' alt='GitHub'>  <AiFillGithub className='m-2 text-3xl'/></a>
                 <a href='https://www.facebook.com/sanjay.acharya.98229' alt='Facebook'>  <AiFillFacebook className='m-2 text-3xl'/></a>
 
             </div>
