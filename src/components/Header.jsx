@@ -2,6 +2,7 @@ import React from "react";
 import Cv from "./Cv";
 import data from "./data.json";
 import profPic from "../image/profPic.jpg";
+import ranjImg from "../image/ranjImg.jpg";
 import "./header.css";
 import bgV from '../image/bgV.mp4'
 
@@ -23,7 +24,7 @@ const Header = () => {
         <div className="flex justify-center items-center h-full ">
 
           <img
-            src={profPic}
+            src={ranjImg}
             alt="profilepicture"
             className="mt-5 h-[200px] md:h-[250px] w-[200px] md:w-[250px] image shadow-2xl border border-white"
           />

@@ -15,13 +15,13 @@ function App() {
     <div className=''>
 
       <Header/>
-      <About/>
+      {/* <About/>
       <Skills/>
       <SkillsXs/>
       <Project/>
 
       <Contact/>
-      <Resume/>
+      <Resume/> */}
 
 
     </div>
